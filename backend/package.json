@@ -1,0 +1,9 @@
+{
+  "name": "library-system-backend",
+  "scripts": {
+    "bcpp": "bun  build-cpp && ninja",
+    "build-cpp": "cmake -GNinja",
+    "cl": "bun run clean",
+    "clean": "rm -rvf {CMakeFiles,build.ninja,CMakeCache.txt,cmake_install.cmake,LibraryBackend}"
+  }
+}
