@@ -1,0 +1,703 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.1.92 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /home/suvan/Main/Projs/library_system/backend/CMakeFiles/3.29.2/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/suvan/Main/Projs/library_system/backend/CMakeFiles/3.29.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-nl1StF"
+      binary: "/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-nl1StF"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/nix/store/71fx02rrsn38cv9iz01xcafb35vrjqyc-clang-tools-18.1.6/bin/clang-scan-deps"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-nl1StF'
+        
+        Run Build Command(s): /nix/store/hlxymn46n1xv6d0lq2jmcbl9b6g2l8s9-ninja-1.11.1/bin/ninja -v cmTC_37969
+        [1/2] /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/clang   -v -MD -MT CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o -c /nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        clang version 18.1.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/3n0ac65z0jpys8yqf7jq2q1hg3703603-clang-18.1.6/bin
+        Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/3n0ac65z0jpys8yqf7jq2q1hg3703603-clang-18.1.6/bin/clang-18" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-nl1StF -v -fcoverage-compilation-dir=/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-nl1StF -nostdsysteminc -resource-dir /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root -dependency-file CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o -sys-header-deps -idirafter /nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -U _FORTIFY_SOURCE -U _FORTIFY_SOURCE -D _FORTIFY_SOURCE=2 -internal-isystem /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include -source-date-epoch 315532800 -O2 -Wformat -Wformat-security -Werror=format-security -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -vectorize-loops -vectorize-slp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o -x c /nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 18.1.6 based upon LLVM 18.1.6 default target x86_64-unknown-linux-gnu
+        ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"
+        ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"
+        ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"
+        ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"
+        ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"
+        ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"
+        ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"
+        ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"
+        ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"
+        ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"
+        ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"
+        ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"
+        ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"
+        ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"
+        ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"
+        ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"
+        ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"
+        ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"
+        ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"
+        ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"
+        ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"
+        ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"
+        ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"
+        ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"
+        ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"
+        ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"
+        ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"
+        ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"
+        ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"
+        ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"
+        ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"
+        ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"
+        ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"
+        ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"
+        ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"
+        ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"
+        ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"
+        ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"
+        ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"
+        ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"
+        ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"
+        ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include
+         /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include
+         /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include
+         /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include
+         /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include
+         /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include
+         /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include
+         /nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include
+        End of search list.
+        [2/2] : && /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/clang  -v -Wl,-v CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o -o cmTC_37969   && :
+        clang version 18.1.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/3n0ac65z0jpys8yqf7jq2q1hg3703603-clang-18.1.6/bin
+        Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_37969 /nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/Scrt1.o /nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crti.o /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib/lib -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0//lib -L/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc/lib -L/nix/store/5d52f93rlhp8xbjc94kycxfs70dbwna6-clang-18.1.6-lib/lib -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64 -dynamic-linker=/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o -rpath /nix/store/kswzdj7ac9qm1mfasj780xnpidqibns6-local-dev-env/lib -rpath /nix/store/kswzdj7ac9qm1mfasj780xnpidqibns6-local-dev-env/lib -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o /nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crtn.o
+        GNU ld (GNU Binutils) 2.41
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include]
+          add: [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include]
+          add: [/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include]
+          add: [/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include]
+          add: [/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include]
+          add: [/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include]
+          add: [/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include]
+          add: [/nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include] ==> [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include]
+        collapse include dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include] ==> [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include]
+        collapse include dir [/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include] ==> [/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include]
+        collapse include dir [/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include] ==> [/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include]
+        collapse include dir [/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include] ==> [/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include]
+        collapse include dir [/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include] ==> [/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include]
+        collapse include dir [/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include] ==> [/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include]
+        collapse include dir [/nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include] ==> [/nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include]
+        implicit include dirs: [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include;/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include;/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include;/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include;/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include;/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include;/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include;/nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-nl1StF']
+        ignore line: []
+        ignore line: [Run Build Command(s): /nix/store/hlxymn46n1xv6d0lq2jmcbl9b6g2l8s9-ninja-1.11.1/bin/ninja -v cmTC_37969]
+        ignore line: [[1/2] /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/clang   -v -MD -MT CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o -c /nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 18.1.6]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/3n0ac65z0jpys8yqf7jq2q1hg3703603-clang-18.1.6/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Selected GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/nix/store/3n0ac65z0jpys8yqf7jq2q1hg3703603-clang-18.1.6/bin/clang-18" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-nl1StF -v -fcoverage-compilation-dir=/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-nl1StF -nostdsysteminc -resource-dir /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root -dependency-file CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o -sys-header-deps -idirafter /nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -U _FORTIFY_SOURCE -U _FORTIFY_SOURCE -D _FORTIFY_SOURCE=2 -internal-isystem /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include -source-date-epoch 315532800 -O2 -Wformat -Wformat-security -Werror=format-security -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -vectorize-loops -vectorize-slp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o -x c /nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 18.1.6 based upon LLVM 18.1.6 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include]
+        ignore line: [ /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include]
+        ignore line: [ /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include]
+        ignore line: [ /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include]
+        ignore line: [ /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include]
+        ignore line: [ /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include]
+        ignore line: [ /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include]
+        ignore line: [ /nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/clang  -v -Wl -v CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o -o cmTC_37969   && :]
+        ignore line: [clang version 18.1.6]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/3n0ac65z0jpys8yqf7jq2q1hg3703603-clang-18.1.6/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Selected GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_37969 /nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/Scrt1.o /nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crti.o /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib/lib -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0//lib -L/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc/lib -L/nix/store/5d52f93rlhp8xbjc94kycxfs70dbwna6-clang-18.1.6-lib/lib -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64 -dynamic-linker=/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o -rpath /nix/store/kswzdj7ac9qm1mfasj780xnpidqibns6-local-dev-env/lib -rpath /nix/store/kswzdj7ac9qm1mfasj780xnpidqibns6-local-dev-env/lib -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o /nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crtn.o]
+          arg [/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_37969] ==> ignore
+          arg [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/Scrt1.o] ==> obj [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/Scrt1.o]
+          arg [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crti.o] ==> obj [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crti.o]
+          arg [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o] ==> obj [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o]
+          arg [-L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+          arg [-L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+          arg [-L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+          arg [-L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+          arg [-L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+          arg [-L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+          arg [-L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+          arg [-L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+          arg [-L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+          arg [-L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+          arg [-L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+          arg [-L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+          arg [-L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+          arg [-L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+          arg [-L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+          arg [-L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+          arg [-L/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib] ==> dir [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib]
+          arg [-L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+          arg [-L/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib/lib] ==> dir [/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib/lib]
+          arg [-L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0//lib] ==> dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0//lib]
+          arg [-L/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc/lib] ==> dir [/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc/lib]
+          arg [-L/nix/store/5d52f93rlhp8xbjc94kycxfs70dbwna6-clang-18.1.6-lib/lib] ==> dir [/nix/store/5d52f93rlhp8xbjc94kycxfs70dbwna6-clang-18.1.6-lib/lib]
+          arg [-L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+          arg [-L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64] ==> dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64]
+          arg [-dynamic-linker=/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_37969.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/nix/store/kswzdj7ac9qm1mfasj780xnpidqibns6-local-dev-env/lib] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/nix/store/kswzdj7ac9qm1mfasj780xnpidqibns6-local-dev-env/lib] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o] ==> obj [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o]
+          arg [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crtn.o] ==> obj [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crtn.o]
+        linker tool for 'C': /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/ld
+        collapse library dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+        collapse library dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+        collapse library dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+        collapse library dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+        collapse library dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+        collapse library dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+        collapse library dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+        collapse library dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+        collapse library dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+        collapse library dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+        collapse library dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+        collapse library dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+        collapse library dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+        collapse library dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+        collapse library dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+        collapse library dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+        collapse library dir [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib] ==> [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib]
+        collapse library dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        collapse library dir [/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib/lib] ==> [/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib/lib]
+        collapse library dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0//lib] ==> [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib]
+        collapse library dir [/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc/lib] ==> [/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc/lib]
+        collapse library dir [/nix/store/5d52f93rlhp8xbjc94kycxfs70dbwna6-clang-18.1.6-lib/lib] ==> [/nix/store/5d52f93rlhp8xbjc94kycxfs70dbwna6-clang-18.1.6-lib/lib]
+        collapse library dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        collapse library dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64] ==> [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/Scrt1.o;/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crti.o;/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o;/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o;/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crtn.o]
+        implicit dirs: [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib;/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib;/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib;/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib;/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib;/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0;/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib/lib;/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib;/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc/lib;/nix/store/5d52f93rlhp8xbjc94kycxfs70dbwna6-clang-18.1.6-lib/lib;/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0;/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.41
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-p9OvVA"
+      binary: "/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-p9OvVA"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/nix/store/71fx02rrsn38cv9iz01xcafb35vrjqyc-clang-tools-18.1.6/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-p9OvVA'
+        
+        Run Build Command(s): /nix/store/hlxymn46n1xv6d0lq2jmcbl9b6g2l8s9-ninja-1.11.1/bin/ninja -v cmTC_bc70f
+        [1/2] /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/clang++   -v -MD -MT CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        clang version 18.1.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/3n0ac65z0jpys8yqf7jq2q1hg3703603-clang-18.1.6/bin
+        Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/nix/store/3n0ac65z0jpys8yqf7jq2q1hg3703603-clang-18.1.6/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-p9OvVA -v -fcoverage-compilation-dir=/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-p9OvVA -nostdsysteminc -resource-dir /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root -dependency-file CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -U _FORTIFY_SOURCE -U _FORTIFY_SOURCE -D _FORTIFY_SOURCE=2 -internal-isystem /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include -source-date-epoch 315532800 -O2 -Wformat -Wformat-security -Werror=format-security -fdeprecated-macro -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 18.1.6 based upon LLVM 18.1.6 default target x86_64-unknown-linux-gnu
+        ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"
+        ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"
+        ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"
+        ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"
+        ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"
+        ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"
+        ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"
+        ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"
+        ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"
+        ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"
+        ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"
+        ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"
+        ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"
+        ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"
+        ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"
+        ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"
+        ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"
+        ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"
+        ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"
+        ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"
+        ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"
+        ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"
+        ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"
+        ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"
+        ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"
+        ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"
+        ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"
+        ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"
+        ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"
+        ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"
+        ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"
+        ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"
+        ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"
+        ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"
+        ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"
+        ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"
+        ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"
+        ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"
+        ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"
+        ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"
+        ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"
+        ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include
+         /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include
+         /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include
+         /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include
+         /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include
+         /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include
+         /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0
+         /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu
+         /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include
+         /nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include
+        End of search list.
+        [2/2] : && /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_bc70f   && :
+        clang version 18.1.6
+        Target: x86_64-unknown-linux-gnu
+        Thread model: posix
+        InstalledDir: /nix/store/3n0ac65z0jpys8yqf7jq2q1hg3703603-clang-18.1.6/bin
+        Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Selected GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_bc70f /nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/Scrt1.o /nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crti.o /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib/lib -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0//lib -L/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc/lib -L/nix/store/5d52f93rlhp8xbjc94kycxfs70dbwna6-clang-18.1.6-lib/lib -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64 -dynamic-linker=/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o -rpath /nix/store/kswzdj7ac9qm1mfasj780xnpidqibns6-local-dev-env/lib -rpath /nix/store/kswzdj7ac9qm1mfasj780xnpidqibns6-local-dev-env/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o /nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crtn.o
+        GNU ld (GNU Binutils) 2.41
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include]
+          add: [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include]
+          add: [/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include]
+          add: [/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include]
+          add: [/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include]
+          add: [/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include]
+          add: [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0]
+          add: [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu]
+          add: [/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include]
+          add: [/nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include]
+        end of search list found
+        collapse include dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include] ==> [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include]
+        collapse include dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include] ==> [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include]
+        collapse include dir [/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include] ==> [/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include]
+        collapse include dir [/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include] ==> [/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include]
+        collapse include dir [/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include] ==> [/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include]
+        collapse include dir [/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include] ==> [/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include]
+        collapse include dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0] ==> [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0]
+        collapse include dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu] ==> [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu]
+        collapse include dir [/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include] ==> [/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include]
+        collapse include dir [/nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include] ==> [/nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include]
+        implicit include dirs: [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include;/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include;/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include;/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include;/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include;/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include;/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0;/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu;/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include;/nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-p9OvVA']
+        ignore line: []
+        ignore line: [Run Build Command(s): /nix/store/hlxymn46n1xv6d0lq2jmcbl9b6g2l8s9-ninja-1.11.1/bin/ninja -v cmTC_bc70f]
+        ignore line: [[1/2] /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/clang++   -v -MD -MT CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 18.1.6]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/3n0ac65z0jpys8yqf7jq2q1hg3703603-clang-18.1.6/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Selected GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/nix/store/3n0ac65z0jpys8yqf7jq2q1hg3703603-clang-18.1.6/bin/clang++" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-p9OvVA -v -fcoverage-compilation-dir=/home/suvan/Main/Projs/library_system/backend/CMakeFiles/CMakeScratch/TryCompile-p9OvVA -nostdsysteminc -resource-dir /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root -dependency-file CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -idirafter /nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include -isystem /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0 -isystem /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu -U _FORTIFY_SOURCE -U _FORTIFY_SOURCE -D _FORTIFY_SOURCE=2 -internal-isystem /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include -source-date-epoch 315532800 -O2 -Wformat -Wformat-security -Werror=format-security -fdeprecated-macro -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 18.1.6 based upon LLVM 18.1.6 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/include]
+        ignore line: [ /nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/include]
+        ignore line: [ /nix/store/hr3kngxq102gq4b29jh5b4mwfkvznvhd-python3.12-greenlet-3.0.3/include]
+        ignore line: [ /nix/store/mkcjpbmmwjgx8kpc7rdzcmpdcff056qn-httplib-0.15.3/include]
+        ignore line: [ /nix/store/6g9n96qf1yx139xklnmy3v4xhjvjgsji-nodejs-20.12.2/include]
+        ignore line: [ /nix/store/2mkvcb9vrdl2cg1pjbbfig7p6dwyyja1-compiler-rt-libc-18.1.6-dev/include]
+        ignore line: [ /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0]
+        ignore line: [ /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/include/c++/13.2.0/x86_64-unknown-linux-gnu]
+        ignore line: [ /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/resource-root/include]
+        ignore line: [ /nix/store/fwh4fxd747m0py3ib3s5abamia9nrf90-glibc-2.39-52-dev/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/clang++  -v -Wl -v CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_bc70f   && :]
+        ignore line: [clang version 18.1.6]
+        ignore line: [Target: x86_64-unknown-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /nix/store/3n0ac65z0jpys8yqf7jq2q1hg3703603-clang-18.1.6/bin]
+        ignore line: [Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Found candidate GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Selected GCC installation: /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -pie -o cmTC_bc70f /nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/Scrt1.o /nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crti.o /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib -L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib -L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib -L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib -L/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib/lib -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0//lib -L/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc/lib -L/nix/store/5d52f93rlhp8xbjc94kycxfs70dbwna6-clang-18.1.6-lib/lib -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0 -L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64 -dynamic-linker=/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/ld-linux-x86-64.so.2 -v CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o -rpath /nix/store/kswzdj7ac9qm1mfasj780xnpidqibns6-local-dev-env/lib -rpath /nix/store/kswzdj7ac9qm1mfasj780xnpidqibns6-local-dev-env/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o /nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crtn.o]
+          arg [/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_bc70f] ==> ignore
+          arg [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/Scrt1.o] ==> obj [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/Scrt1.o]
+          arg [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crti.o] ==> obj [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crti.o]
+          arg [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o] ==> obj [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o]
+          arg [-L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+          arg [-L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+          arg [-L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+          arg [-L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+          arg [-L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+          arg [-L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+          arg [-L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+          arg [-L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+          arg [-L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+          arg [-L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+          arg [-L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+          arg [-L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+          arg [-L/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+          arg [-L/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+          arg [-L/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+          arg [-L/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+          arg [-L/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib] ==> dir [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib]
+          arg [-L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+          arg [-L/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib/lib] ==> dir [/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib/lib]
+          arg [-L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0//lib] ==> dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0//lib]
+          arg [-L/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc/lib] ==> dir [/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc/lib]
+          arg [-L/nix/store/5d52f93rlhp8xbjc94kycxfs70dbwna6-clang-18.1.6-lib/lib] ==> dir [/nix/store/5d52f93rlhp8xbjc94kycxfs70dbwna6-clang-18.1.6-lib/lib]
+          arg [-L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+          arg [-L/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64] ==> dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64]
+          arg [-dynamic-linker=/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/ld-linux-x86-64.so.2] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_bc70f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/nix/store/kswzdj7ac9qm1mfasj780xnpidqibns6-local-dev-env/lib] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/nix/store/kswzdj7ac9qm1mfasj780xnpidqibns6-local-dev-env/lib] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o] ==> obj [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o]
+          arg [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crtn.o] ==> obj [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crtn.o]
+        linker tool for 'CXX': /nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/ld
+        collapse library dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+        collapse library dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+        collapse library dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+        collapse library dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+        collapse library dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+        collapse library dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+        collapse library dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+        collapse library dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+        collapse library dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+        collapse library dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+        collapse library dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+        collapse library dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+        collapse library dir [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib] ==> [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib]
+        collapse library dir [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib] ==> [/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib]
+        collapse library dir [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib] ==> [/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib]
+        collapse library dir [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib] ==> [/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib]
+        collapse library dir [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib] ==> [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib]
+        collapse library dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        collapse library dir [/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib/lib] ==> [/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib/lib]
+        collapse library dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0//lib] ==> [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib]
+        collapse library dir [/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc/lib] ==> [/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc/lib]
+        collapse library dir [/nix/store/5d52f93rlhp8xbjc94kycxfs70dbwna6-clang-18.1.6-lib/lib] ==> [/nix/store/5d52f93rlhp8xbjc94kycxfs70dbwna6-clang-18.1.6-lib/lib]
+        collapse library dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0] ==> [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0]
+        collapse library dir [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0/../../../../lib64] ==> [/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/Scrt1.o;/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crti.o;/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtbeginS.o;/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0/crtendS.o;/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib/crtn.o]
+        implicit dirs: [/nix/store/c7ycrgwv039nqglbif98yggx211sdbcl-python3-3.12.3/lib;/nix/store/7hnr99nxrd2aw6lghybqdmkckq60j6l9-python3-3.11.9/lib;/nix/store/j4m3lwhh4x0bzilvi77d512ahry775nq-ncurses-6.4/lib;/nix/store/k7nxqxkkjqxv6l5wr14jfc4ycjlkdans-mariadb-server-10.11.6/lib;/nix/store/k7zgvzp2r31zkg9xqgjim7mbknryv6bs-glibc-2.39-52/lib;/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib/gcc/x86_64-unknown-linux-gnu/13.2.0;/nix/store/xvzz97yk73hw03v5dhhz3j47ggwf1yq1-gcc-13.2.0-lib/lib;/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib;/nix/store/0rxb3ixzk4zaqivc9s795m0a3679wbw2-gcc-13.2.0-libgcc/lib;/nix/store/5d52f93rlhp8xbjc94kycxfs70dbwna6-clang-18.1.6-lib/lib;/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64/gcc/x86_64-unknown-linux-gnu/13.2.0;/nix/store/14c6s4xzhy14i2b05s00rjns2j93gzz4-gcc-13.2.0/lib64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "/nix/store/q1nssraba326p2kp6627hldd2bhg254c-cmake-3.29.2/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/nix/store/9msd9b6cd1qjdrkw44w7z1rq9s0dm9vv-clang-wrapper-18.1.6/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.41
+...
