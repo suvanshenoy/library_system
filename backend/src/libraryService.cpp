@@ -12,8 +12,7 @@ using std::runtime_error;
 
 LibraryService::LibraryService() {
   books.push_back(make_shared<Book>(1, "1984", "George Orwell"));
-  books.push_back(
-      std::make_shared<Book>(2, "To Kill a Mockingbird", "Harper Lee"));
+  books.push_back(make_shared<Book>(2, "To Kill a Mockingbird", "Harper Lee"));
   users.push_back(make_shared<User>(1, "Alice"));
   users.push_back(make_shared<User>(2, "Bob"));
 }
