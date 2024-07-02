@@ -1,3 +1,0 @@
-/home/suvan/Main/Projs/library_system/backend/CMakeFiles/LibraryBackend.dir
-/home/suvan/Main/Projs/library_system/backend/CMakeFiles/edit_cache.dir
-/home/suvan/Main/Projs/library_system/backend/CMakeFiles/rebuild_cache.dir
