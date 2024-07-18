@@ -10,31 +10,46 @@
 - gcc/clang
 - poetry
 
-### running the backend:
+##running the backend:
 
 - use the following commands:
-### first go into backend directory using cd
 
+first go into backend directory using cd
+```
     cd backend
+```
 
-### use npm or bun or pnpm to run the commands below:
-    - to build the project use:
+- use npm or bun or pnpm to run the commands below:
+to build the project use:
 
+```
       [your_package_manager] run bcpp or [your_package_manager] run build-cpp
-
-    - after building the project an executable get created , run it using:
-
+```
+- after building the project an executable get created , run it using:
+```
       ./LibraryBackend
+```
 
-    - to clean the directory having unwanted cmake builds and folders:
+- to clean the directory having unwanted cmake builds and folders:
+```
+     [your_package_manager] run clean
+``` 
+            or 
+```
+[your_package_manager] run cl
+```
 
-     [your_package_manager] run clean or [your_package_manager] run cl
 
 
-### running the frontend:
-     - to install the dependencies in package.json required for frontend run:
+## running the frontend:
+ - to install the dependencies in package.json required for frontend run:
 
-        [you_package_manager] install or [you_package_manager] i
+```
+      [you_package_manager] install
+```
+```
+[you_package_manager] i
+```
 
      - to run the project:
 
