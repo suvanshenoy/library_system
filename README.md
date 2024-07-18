@@ -34,9 +34,9 @@ to build the project use:
 ```
      [your_package_manager] run clean
 ``` 
-            or 
+###      or           
 ```
-[your_package_manager] run cl
+     [your_package_manager] run cl
 ```
 
 
@@ -47,27 +47,32 @@ to build the project use:
 ```
       [you_package_manager] install
 ```
+###     or
 ```
 [you_package_manager] i
 ```
 
-     - to run the project:
-
+- to run the project:
+```
        [your_package_manager] start
+```
 
-### running the python machine learning backend:
-     - make sure you have poetry installed
-     - to install the dependencies use:
-
+## running the python machine learning backend:
+- make sure you have poetry installed
+- to install the dependencies use:
+```
         poetry install
+```
 
-     - next you need to go into the virtual environment created by poetry , for that your can use:
-
+- next you need to go into the virtual environment created by poetry , for that your can use:
+```
         poetry shell
+```
 
-     - to run the project:
-
+- to run the project:
+```
         python3 -m flask --app main.py --debug run
+```
 
 
 
